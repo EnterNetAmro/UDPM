@@ -1,0 +1,14 @@
+[method] sip:[Phone@][IP] SIP/2.0
+To: <sip:[Phone]@[IP]>[Tag]
+From: <sip:[User]@[IP]>;tag=[MyTag]
+Via: SIP/2.0/UDP [Local];branch=z9hG4bK-d87543-[branch]-1--d87543-
+Call-ID: [Call-ID]
+CSeq: [CSeq] [method]
+Contact: <sip:[User]@[Local]>
+Expires: [Expires]
+Max-Forwards: 70
+Allow: INVITE,ACK,CANCEL,REGISTER,OPTIONS,BYE,REFER,NOTIFY,MESSAGE,SUBSCRIBE,INFO
+User-Agent: [User-Agent]
+Authorization: [Authorization]
+Content-Type: [Content-Type]
+Content-Length: [Content-Length]
