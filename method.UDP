@@ -1,15 +1,1 @@
-[method] sip:[Phone@][IP]:[Port] SIP/2.0
-To: <sip:[Phone]@[IP]>[Tag]
-From: <sip:[User]@[IP]>;tag=[MyTag]
-Via: SIP/2.0/UDP [Local];branch=z9hG4bK-d87543-[branch]-1--d87543-;rport
-Call-ID: [Call-ID]
-CSeq: [CSeq] [method]
-Contact: <sip:[User]@[Local]>
-Expires: [Expires]
-Max-Forwards: 70
-Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
-User-Agent: [User-Agent]
-Authorization: [Authorization]
-Content-Type: [Content-Type]
-Content-Length: [Content-Length]
-
+[method] sip:[Phone@][IP]:[Port] SIP/2.0\r\nTo: <sip:[Phone]@[IP]>[Tag]\r\nFrom: <sip:[User]@[IP]>;tag=[MyTag]\r\nVia: SIP/2.0/UDP [Local];branch=z9hG4bK-d87543-[branch]-1--d87543-;rport\r\nCall-ID: [Call-ID]\r\nCSeq: [CSeq] [method]\r\nContact: <sip:[User]@[Local]>\r\nExpires: [Expires]\r\nMax-Forwards: 70\r\nAllow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO\r\nUser-Agent: [User-Agent]\r\nAuthorization: [Authorization]\r\nContent-Type: [Content-Type]\r\nContent-Length: [Content-Length]\r\n
